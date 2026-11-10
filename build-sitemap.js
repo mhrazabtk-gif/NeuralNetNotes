@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://neural-net-notes.pages.dev';
+const DOMAIN = 'https://neural-net-notes.pageaura.xyz';
 const KEY = '50e190491be049d5a86674f96c0c329f';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'neural-net-notes.pages.dev' ||
+    url.hostname.toLowerCase() !== 'neural-net-notes.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
