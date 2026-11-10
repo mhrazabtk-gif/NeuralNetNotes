@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'neural-net-notes.pages.dev';
+const HOST = 'neural-net-notes.pageaura.xyz';
 const KEY = '50e190491be049d5a86674f96c0c329f';
-const KEY_LOCATION = `https://neural-net-notes.pages.dev/50e190491be049d5a86674f96c0c329f.txt`;
+const KEY_LOCATION = `https://neural-net-notes.pageaura.xyz/50e190491be049d5a86674f96c0c329f.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
